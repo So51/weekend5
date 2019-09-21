@@ -1,0 +1,14 @@
+var s = 15 ; 
+var i = 0 ;
+try { 
+if ( i == 0 ){
+throw ( " can't divide ");
+}
+else {
+  var d = s / i ;
+}
+}catch (n){ 
+  alert ("Error "+ n);
+}
+finally { 
+alert ("try again ")}
